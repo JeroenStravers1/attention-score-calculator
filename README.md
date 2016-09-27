@@ -17,7 +17,8 @@ All images of students are deleted after head pose extraction.
 
 
 
-(1) I used WEKA to train an SVM (SMO) based on a dataset of 94 images, 47 labeled as "paying_attention" and 47 labeled as "not_paying"attention". 
+*(1) I used WEKA to train an SVM (SMO) based on a dataset of 94 images, 47 labeled as "paying_attention" and 47 labeled as "not_paying"attention". 
 Labeling was done manually, 94 images remained after manual cleaning and balancing. This dataset is too small to produce reliable results, but had to suffice due to time constraints.
-The choice of SMO was due to ease of implementation (time constraints); iBk, j48 and random forests performed better in accuracy and precision.
-(2) The average attention score from all collected data (125 images) is 37.6%. This means nothing, as this dataset is far too small!
+The choice of SMO was due to ease of implementation (time constraints); iBk, j48 and random forests performed better in accuracy and precision.*
+
+*(2) The average attention score from all collected data (125 images) is 37.6%. This means nothing, as this dataset is far too small!*
